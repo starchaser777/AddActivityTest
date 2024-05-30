@@ -7,11 +7,32 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Second 액티비티"/>
+        <RadioButton
+            android:id="@+id/radioThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Third 액티비티"/>
+    </RadioGroup>
     <Button
         android:id="@+id/btnMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:text="SecondActivity 실행"/>
+        android:text="새 화면 열기"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnMain"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="30dp"-->
+<!--        android:text="SecondActivity 실행"/>-->
 
 </LinearLayout>
